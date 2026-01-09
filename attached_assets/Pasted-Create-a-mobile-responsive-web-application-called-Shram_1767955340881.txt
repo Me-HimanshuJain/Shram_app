@@ -1,0 +1,205 @@
+Create a mobile-responsive web application called "Shramik-Setu" - a comprehensive platform for India's gig workers with the following features:
+
+## **CORE PAGES & FEATURES:**
+
+### **1. LANDING PAGE**
+- App name "Shramik-Setu" with tagline: "Your Digital Identity + Guaranteed Earnings"
+- Hero section showing: "Get your Digital Worker ID | Earn with Smart Commission Models"
+- Two primary buttons: "Worker Login" | "Employer Login"
+- Key highlights as cards:
+  1. Digital Worker Certificate (ID)
+  2. Choose Your Commission Model
+  3. AI Assistant in Local Languages
+  4. CRC Benefits & Microloans
+
+### **2. DIGITAL WORKER ID PAGE (Main Feature)**
+Design this as an official-looking digital certificate:
+
+**Top Section - Digital ID Card:**
+- Looks like official ID with hologram effect
+- Worker photo (placeholder avatar)
+- Unique ID: SHW-2024-001234
+- QR code (for verification scan)
+- Details: Name, DOB, Skills, Location, Validity Date
+- "Verified" badge with checkmark
+
+**Bottom Section - Certificate Details:**
+- Issued by: Shramik-Setu Platform
+- Skills Certified: Masonry (Gold), Plumbing (Silver)
+- Work History: 124 jobs completed, 98% positive rating
+- Trust Score: 92/100
+- "Download PDF Certificate" button
+- "Share Digital ID" button (generates shareable link)
+
+### **3. COMMISSION MODEL SELECTION PAGE**
+**Two Options Side-by-Side:**
+
+**Option A: Per-Transaction Model (5-8%)**
+- Card showing: "Pay as you earn"
+- Example calculation:
+  - Job value: ₹1,000
+  - Our cut: ₹50 (5%) + ₹20 insurance = ₹70 total
+  - Worker gets: ₹930
+- Insurance included: ₹2 lakh accident cover
+- "Select This Model" button
+
+**Option B: Monthly Fixed Model**
+- Card showing: "Fixed Monthly: ₹2,000-3,000"
+- Features included:
+  - Unlimited jobs this month
+  - Premium insurance (₹5 lakh cover)
+  - Priority job alerts
+  - Free skill certification
+- "Subscribe Monthly" button with ₹2,499/month price
+
+**Comparison Table:**
+| Feature | Option A | Option B |
+|---------|----------|----------|
+| Commission | 5-8% per job | ₹2,499/month fixed |
+| Insurance | Basic | Premium |
+| Job Priority | Normal | High |
+| Certificates | Paid | Free |
+
+### **4. INCENTIVES & REWARDS PAGE**
+**Star Worker Program:**
+
+**Monthly Incentives:**
+- Progress bar: "Complete 100 hours → Get ₹500 bonus"
+- Current: 78/100 hours
+- "Feedback Score" meter: 4.7/5 stars
+- "Referral Bonus": ₹200 per friend who joins
+
+**Annual Star Worker Awards:**
+- Gold Tier: 1,500+ hours/year → Smartphone reward
+- Silver Tier: 1,000+ hours → ₹5,000 cash
+- Bronze Tier: 500+ hours → Branded backpack
+- Show leaderboard with top 10 workers
+
+**Achievement Badges:**
+- Early Bird (complete 5 AM jobs)
+- Quality Master (4.8+ rating)
+- Safety Champion (zero incidents)
+- Each badge gives reward points
+
+### **5. WORKER HIRING & VERIFICATION DASHBOARD**
+**For Employers/Contractors:**
+
+**Search & Hire Interface:**
+- Search bar: "Find verified workers by skill, location"
+- Worker cards showing:
+  - Photo and Digital ID badge
+  - Skills and ratings
+  - Hourly rate and availability
+  - Verification level (Basic/Verified/Premium)
+
+**Verification Badge System:**
+- **Blue Badge**: ID Verified (free)
+- **Silver Badge**: Skill Certified (₹199/test)
+- **Gold Badge**: Premium Verified (background check, ₹499)
+- Each badge increases visibility and trust score
+
+**Hire Flow:**
+1. Select worker
+2. Set job details (duration, location, pay)
+3. Generate digital contract
+4. Worker accepts via app
+5. Track work in real-time
+
+### **6. CRC (Corporate Social Responsibility) PLATFORM**
+**For Companies:**
+
+**Dashboard:**
+- Company name: "TechCorp CSR Fund"
+- Total fund: ₹10,00,000
+- Allocated: ₹4,50,000
+- Available: ₹5,50,000
+
+**Allocation Options:**
+1. **Food/Meal Cards** for workers
+2. **Microloans** (₹5,000-50,000) at low interest
+3. **Skill Training** programs
+4. **Health Camps**
+5. **Emergency Support**
+
+**Worker View (Microloan Section):**
+- "Apply for Loan" button
+- Loan calculator: Need ₹20,000? Pay ₹2,100/month for 12 months
+- Eligibility check: ✓ Verified worker, ✓ 6 months on platform
+- Application status tracker
+
+### **7. AI ASSISTANT PAGE (Key Feature)**
+**Local Language AI Chat Interface:**
+
+**Top: Language Selector**
+- Hindi | Tamil | Telugu | Bengali | English
+- "Speak to AI" microphone button
+
+**AI Features:**
+1. **Smart Job Matching**: "Find masonry jobs near me tomorrow"
+2. **Document Help**: "Help me apply for loan" (guides through steps)
+3. **Earnings Predictor**: "How much can I earn this week?"
+4. **Skill Advisor**: "What skills should I learn next?"
+5. **Government Scheme Finder**: "Find schemes for construction workers"
+
+**Chat Interface Example:**
+User (in Hindi): "कल के लिए निर्माण कार्य ढूंढें"
+AI Reply: "आपके क्षेत्र में 3 निर्माण कार्य उपलब्ध हैं। सबसे नज़दीक 5 किमी दूर है, ₹800/दिन। क्या आप आवेदन करना चाहेंगे?"
+
+**Smart Triggers (Notifications):**
+- "AI detected you're near high-demand area → 5 new jobs available"
+- "You've worked 90 hours this month → ₹400 bonus unlocked!"
+- "Weather alert: Rain predicted → indoor jobs recommended"
+
+## **TECHNICAL IMPLEMENTATION:**
+
+### **Design Requirements:**
+- Mobile-first responsive design
+- Indian color palette: #FF9933 (saffron), #138808 (green), #000080 (blue)
+- Clean, professional look with card-based layout
+- Use intuitive icons (FontAwesome/React Icons)
+
+### **Pages to Create:**
+1. Landing Page
+2. Digital ID/Certificate Page
+3. Commission Model Selection
+4. Incentives & Rewards Dashboard
+5. Worker Hiring Marketplace
+6. CRC & Microloan Platform
+7. AI Assistant Chat Interface
+8. Worker Profile Page
+9. Employer Dashboard
+
+### **Mock Data to Use:**
+- Worker: Ramesh Kumar, Construction, Delhi
+- Digital ID: SHW-2024-001235
+- Skills: Masonry, Tiling, Concrete work
+- Rating: 4.8/5 from 67 jobs
+- Current balance: ₹8,500
+- CSR loan eligible: ₹25,000
+
+### **Interactive Elements:**
+- Clickable commission model toggle
+- Interactive AI chat (pre-written responses)
+- Digital ID QR code generator (static QR)
+- Loan calculator with sliders
+- Progress bars for incentives
+- Badge unlock animations
+
+### **Special UI Components:**
+1. **Digital ID Card** with shine/hologram effect
+2. **AI Chat Bubble** interface
+3. **Commission Calculator** (live update)
+4. **Star Worker Leaderboard**
+5. **Microloan Application Wizard**
+6. **Language Selector** with flags
+
+## **MAKE IT FEEL LIKE:**
+A professional yet simple platform where gig workers feel valued and organized. The AI should feel helpful, not complicated. The financial aspects should be crystal clear.
+
+**Focus on these user emotions:**
+- "I have an official digital identity"
+- "I understand exactly how commissions work"
+- "The AI actually helps me in my language"
+- "Companies care about my well-being through CRC"
+
+Create a fully navigable prototype where all main features are visible and clickable.
