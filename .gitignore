@@ -1,6 +1,22 @@
-node_modules
-dist
+# Dependencies
+node_modules/
+
+# Production Build
+dist/
+server/public/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Replit Local State & Cache
+.local/
+.cache/
+
+# System and Editor Files
 .DS_Store
-server/public
+Thumbs.db
+*.log
 vite.config.ts.*
 *.tar.gz
